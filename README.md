@@ -2,7 +2,7 @@
 
 <a name="logo"/>
 <div align="center">
-<img src="docs/assets/julia-logo.png" alt="Julia Logo" width="210" height="142"></img>
+<img src="docs/assets/logo.png" alt="Julia Logo" width="210" height="142"></img>
 </a>
 </div>
 
