@@ -1,4 +1,4 @@
-# NeuroJulia
+# JuliaMind
 
 <a name="logo"/>
 <div align="center">
