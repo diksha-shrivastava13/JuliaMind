@@ -7,4 +7,5 @@ assignees: ''
 
 ---
 
+> Please create a new issue with each of the subtasks and comment "- [ ] #issue_number" to keep the task list updated.
 
