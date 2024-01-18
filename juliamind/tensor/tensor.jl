@@ -3,7 +3,8 @@
 struct Tensor{T, N}
     data::Array{T, N}
 end
-
+# base tensor class 
+#TODO add default value to N 
 function Tensor(dtype=Float64,shape::Vararg{Int, N=missing};) where N
     
     data = rand(dtype, shape)
@@ -23,11 +24,11 @@ function multiply(t1::Tensor, t2::Tensor)::Tensor
     return Tensor(t1.data .* t2.data)
 end
 # Create tensors
-tensor1 = Tensor(3, 3)
-tensor2 = Tensor(3, 3)
+# tensor1 = Tensor(3, 3)
+# tensor2 = Tensor(3, 3)
 
-tensor3 = Tensor(1)
-tensor4 = tensor()
+# tensor3 = Tensor(1)
+# tensor4 = tensor()
 
 # Display the shape of tensors
 # println("Shape of tensor1: ", shape(tensor1))
